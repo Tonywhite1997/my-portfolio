@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+@import "./header";
+@import "./hero";
+@import "./about";
+@import "./project";
+@import "./contact";
+@import "./footer";
+@import "./loader";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #223042;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    font-family: "Oswald",
+        sans-serif;
+    // min-height: 100vh;
+    height: 100vh;
+    padding: 0 200px;
+    position: relative;
+
+    .landing-container {
+        // border: 1px solid green;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mailbox {
+        // border: 1px solid red;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 5.3em;
+        width: 50px;
+        top: 0;
+        left: 0;
+        bottom: 120px;
+
+        .info {
+            // border: 1px solid green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(-90deg);
+            color: rgb(237, 236, 236);
+            font-weight: 200;
+            font-size: 0.9rem;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            transition: 0.3s;
+
+            &:hover {
+                color: rgb(121, 246, 121);
+                letter-spacing: .11rem;
+            }
+
+            .icon {
+                height: 25px;
+                width: 25px;
+                transform: rotate(360deg);
+                color: rgb(121, 246, 121);
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        // border: 1px solid red;
+        padding: 0 80px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    body {
+        padding: 0 60px;
+
+        .mailbox {
+            display: none;
+        }
+    }
+
+
+}
+
+@media screen and (max-width:650px) {
+    body {
+        padding: 0 20px;
+    }
+
+}

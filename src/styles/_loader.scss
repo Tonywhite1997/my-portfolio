@@ -1,0 +1,63 @@
+.loader {
+    font-size: 2em;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader span {
+    display: inline-block;
+    opacity: 0;
+    animation: fadeIn 0.2s forwards;
+    font-family: "Playfair Display", serif;
+    letter-spacing: .1em;
+    color: rgb(121, 246, 121);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Adjust animation delays for each span */
+.loader .l-bracket {
+    animation-delay: 0s;
+}
+
+.loader .o {
+    animation-delay: 0.1s;
+}
+
+.loader .l {
+    animation-delay: 0.2s;
+}
+
+.loader .u {
+    animation-delay: 0.3s;
+}
+
+.loader .w {
+    animation-delay: 0.4s;
+}
+
+.loader .o-2 {
+    animation-delay: 0.5s;
+}
+
+.loader .l-2 {
+    animation-delay: 0.6s;
+}
+
+.loader .e {
+    animation-delay: 0.7s;
+}
+
+.loader .r-bracket {
+    animation-delay: 0.8s;
+}

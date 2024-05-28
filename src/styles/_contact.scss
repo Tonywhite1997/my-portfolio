@@ -1,0 +1,43 @@
+.contact {
+    font-family: "poppins",
+        sans-serif;
+    min-height: calc(100vh - 10vh);
+
+    h2 {
+        color: rgb(121, 246, 121);
+        font-family: "Caveat",
+            cursive;
+        letter-spacing: .05em;
+        font-size: 2rem;
+        margin-bottom: 1em;
+    }
+
+    p {
+        letter-spacing: .05em;
+        line-height: 1.5em;
+        color: rgb(240, 249, 240);
+    }
+
+    .text {
+        margin-bottom: 4em;
+    }
+
+    a {
+        margin-top: 2em;
+        text-decoration: none;
+        padding: 0.7em 1.8em;
+        border: 1px solid rgb(121, 246, 121);
+        background-color: #223042;
+        color: rgb(242, 241, 241);
+        font-size: 1.125rem;
+        cursor: pointer;
+        border-radius: .2em;
+        transition: 0.3s;
+
+        &:hover {
+            padding: .8em 2em;
+            border: 1px solid white;
+            color: rgb(121, 246, 121);
+        }
+    }
+}
