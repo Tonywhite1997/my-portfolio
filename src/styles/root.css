@@ -420,11 +420,14 @@
   position: relative;
   width: 60%;
   height: 350px;
+  border: 1px solid #ebe7e7;
 }
 
 .project .project-info-container .project-screenshot img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .project .project-info-container .project-screenshot::after {

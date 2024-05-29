@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect} from 'react'
 import AboutImg2 from "../public/about-2.svg"
+import 'aos/dist/aos.css'
+import Aos from 'aos'
 
 function About({aboutRef}) {
+    useEffect(()=>{
+        Aos.init({once:true})
+    },[])
   return (
-    <section className='about-page' ref={aboutRef}>
+    <section data-aos="fade-up"  className='about-page' ref={aboutRef}>
         <div className='about-h2-container'>
             <h2>About Me.</h2>
             {/* <hr/> */}

@@ -8,6 +8,9 @@ import Contact from "./components/Contact";
 import MailIcon from "./icons/MailIcon";
 import Loader from "./components/Loader";
 
+import 'aos/dist/aos.css'
+import Aos from 'aos'
+
 
 function App(){
   const [location, setLocation] = useState(window.location.hash)
@@ -18,6 +21,10 @@ function App(){
   const projectSection = useRef(null)
   const headerSection = useRef(null)
   const contactSection = useRef(null)
+
+  useEffect(()=>{
+        Aos.init()
+    },[])
 
   function scrollToAbout(){
     if(aboutSection.current){

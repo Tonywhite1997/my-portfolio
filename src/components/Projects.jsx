@@ -1,12 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import MiniCloud from "../public/minicloud.png"
 import MyPortfolio from "../public/my-portfolio.png"
 import Link from '../icons/Link'
 import Github from '../icons/Github'
 
+import 'aos/dist/aos.css'
+import Aos from 'aos'
+
 function Projects({projectRef}) {
+
+    useEffect(()=>{
+        Aos.init({once:true})
+    },[])
+
   return (
-    <section className='project' ref={projectRef}>
+    <section data-aos="zoom-in" className='project' ref={projectRef}>
       <div className='project-h2-container'>
             <h2>My Projects.</h2>
       </div>
@@ -53,7 +61,7 @@ function Projects({projectRef}) {
                     <Link/>
                 </a> */}
 
-                <a title='project git repo' href='https://github.com/Tonywhite1997/mini-cloud-frontend' target="_blank">
+                <a title='project git repo' href='https://github.com/Tonywhite1997/my-portfolio' target="_blank">
                     <Github />
                 </a>
 
