@@ -51,9 +51,9 @@ function Projects({projectRef}) {
         </div>
         <div className='project-info'>
             <h4 className='project-name'>02. My Portfolio</h4>
-            <p className='project-description'>This is my personal portfolio that showcases my skills and my previous projects. It makes it easier for people to see me and read a little about me. It also contains my Resumme that is downloadable </p>
+            <p className='project-description'>This is my personal portfolio, designed to showcase my skills and previous projects. It provides an easy way for people to learn about me and my work. Additionally, it includes my resume, which is available for download.</p>
             <div className='tech-used'>
-                <small>JavaScript, React, SCSS </small>
+                <small>JavaScript, React, SCSS</small>
             </div>
     
             <div className='link-and-git-container'>
