@@ -116,12 +116,12 @@
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:350px) {
     .about-page {
         .about-description {
             .image-des {
                 img {
-                    width: 250px;
+                    width: 100%;
                 }
             }
         }

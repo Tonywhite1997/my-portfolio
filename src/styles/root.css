@@ -241,9 +241,9 @@
   width: 350px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .hero-section .programmer {
-    width: 250px;
+    width: 100%;
   }
 }
 
@@ -376,9 +376,9 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .about-page .about-description .image-des img {
-    width: 250px;
+    width: 100%;
   }
 }
 
@@ -565,6 +565,9 @@
 @media screen and (max-width: 400px) {
   .project .project-info-container {
     height: auto;
+    padding: 5em 0;
+  }
+  .project .project-info-container .project-info {
     padding: 5em 1em;
   }
 }

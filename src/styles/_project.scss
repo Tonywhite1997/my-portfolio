@@ -182,7 +182,11 @@
         .project-info-container {
             // border: 1px solid red;
             height: auto;
-            padding: 5em 1em;
+            padding: 5em 0;
+
+            .project-info {
+                padding: 5em 1em;
+            }
         }
     }
 }
