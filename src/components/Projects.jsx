@@ -28,7 +28,7 @@ function Projects({projectRef}) {
             <div className='tech-used'>
                 <small>TypeScript, React, SCSS, NodeJS, Express, MongoDB, AWS S3, NodeMailer, Socket.io</small>
             </div>
-            <p className='notice'>PS: free <span className='render'>Render</span> is used to host the backend server so the load time might take few minutes initially.</p>
+            <p className='notice'>PS:<span className='render'>Render's free tier</span> is used to host the backend server, so the initial load time might take a few minutes.</p>
             <div className='link-and-git-container'>
                 <a title='project link' href='https://miniycloud.netlify.app' target="_blank">
                     <Link/>
