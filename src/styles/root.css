@@ -586,6 +586,11 @@
   margin-bottom: 1em;
 }
 
+.contact .mail {
+  height: 30px;
+  width: 30px;
+}
+
 .contact p {
   letter-spacing: .05em;
   line-height: 1.5em;
