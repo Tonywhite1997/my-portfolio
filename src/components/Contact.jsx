@@ -47,6 +47,11 @@ function Contact({contactRef}) {
       return setIsEmailValid(false)
     }
 
+    if(!serviceID || !templateID || !publicKey){
+      console.log("env variables not found!");
+      return 
+    }
+
     setApiRes({error:"", isSuccess:false, isLoading:true})
 
     const emailTemplate = {
