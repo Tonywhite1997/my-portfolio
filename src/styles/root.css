@@ -562,7 +562,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 340px) {
   .project .project-info-container {
     height: auto;
     padding: 5em 0;

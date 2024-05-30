@@ -57,9 +57,6 @@ function Projects({projectRef}) {
             </div>
     
             <div className='link-and-git-container'>
-                {/* <a title='project link' href='https://miniycloud.netlify.app' target="_blank">
-                    <Link/>
-                </a> */}
 
                 <a title='project git repo' href='https://github.com/Tonywhite1997/my-portfolio' target="_blank">
                     <Github />
