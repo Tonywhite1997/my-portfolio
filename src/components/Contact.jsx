@@ -104,10 +104,10 @@ function Contact({contactRef}) {
 
           {apiRes.error && <small style={{color:"red", marginTop:"-1em", display:"flex", alignItems:"center", justifyContent:"center"}}>{apiRes.error}</small>}
 
-          {apiRes.isSuccess && <small style={{color:"rgb(121, 246, 121)", display:"flex", alignItems:"center", justifyContent:"center", gap:".2em"}}><MailIcon/> Sent Successfully!</small>}
+          {apiRes.isSuccess && <small style={{color:"rgb(121, 246, 121)", display:"flex", alignItems:"center", justifyContent:"center", gap:".2em"}}><MailIcon/> Shot Successfully!</small>}
 
           <div className='button'>
-           <button onClick={sendMessage}>{apiRes.isLoading?"Sending...": "Shoot!"}</button>
+           <button onClick={sendMessage}>{apiRes.isLoading?"Shooting...": "Shoot!"}</button>
           </div>
       </form>
      
