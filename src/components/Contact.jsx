@@ -80,7 +80,7 @@ function Contact({contactRef}) {
   return (
     <section data-aos="fade-up" className='contact' ref={contactRef}>
       <h2>Shoot me a message.</h2>
-      <p>I am currently seeking an opportunity to gain my first job experience as a Software Developer.</p>
+      <p>I am currently seeking an opportunity to gain my first job experience as a Software Engineer.</p>
       <p className='text'>I'd love to work with you and your team.</p>
 
       <form className='form'>

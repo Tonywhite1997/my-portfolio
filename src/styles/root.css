@@ -302,6 +302,36 @@
   font-size: .9rem;
 }
 
+.about-page .about-description .text-des .special {
+  color: #79f679;
+}
+
+.about-page .about-description .text-des .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -.5em;
+  margin-bottom: 1em;
+}
+
+.about-page .about-description .text-des .btn-container button {
+  padding: .5em 2em;
+  border: none;
+  border-radius: .2em;
+  border: 1px solid #79f679;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  letter-spacing: .11rem;
+}
+
+.about-page .about-description .text-des .btn-container button:hover {
+  border: 1px solid white;
+  color: #79f679;
+}
+
 .about-page .about-description .text-des .my-des {
   margin-bottom: 1em;
 }
@@ -656,19 +686,19 @@
 }
 
 .contact .form .name-email-container .container input::-webkit-input-placeholder {
-  color: #f0f9f0;
+  color: #c8c9c8;
 }
 
 .contact .form .name-email-container .container input:-ms-input-placeholder {
-  color: #f0f9f0;
+  color: #c8c9c8;
 }
 
 .contact .form .name-email-container .container input::-ms-input-placeholder {
-  color: #f0f9f0;
+  color: #c8c9c8;
 }
 
 .contact .form .name-email-container .container input::placeholder {
-  color: #f0f9f0;
+  color: #c8c9c8;
 }
 
 .contact .form .message-container {
@@ -702,19 +732,19 @@
 }
 
 .contact .form .message-container .message::-webkit-input-placeholder {
-  color: #f0f9f0;
+  color: #c8c9c8;
 }
 
 .contact .form .message-container .message:-ms-input-placeholder {
-  color: #f0f9f0;
+  color: #c8c9c8;
 }
 
 .contact .form .message-container .message::-ms-input-placeholder {
-  color: #f0f9f0;
+  color: #c8c9c8;
 }
 
 .contact .form .message-container .message::placeholder {
-  color: #f0f9f0;
+  color: #c8c9c8;
 }
 
 .contact .form .button button {

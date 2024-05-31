@@ -38,6 +38,35 @@
             line-height: 1.25rem;
             font-size: .9rem;
 
+            .special {
+                // border: 1px solid red;
+                color: rgb(121, 246, 121);
+            }
+
+            .btn-container {
+                // border: 1px solid red;
+                display: flex;
+                margin-top: -.5em;
+                margin-bottom: 1em;
+
+                button {
+                    padding: .5em 2em;
+                    border: none;
+                    border-radius: .2em;
+                    border: 1px solid rgb(121, 246, 121);
+                    background-color: transparent;
+                    color: rgb(255, 255, 255);
+                    cursor: pointer;
+                    transition: 0.3s;
+                    letter-spacing: .11rem;
+
+                    &:hover {
+                        border: 1px solid white;
+                        color: rgb(121, 246, 121);
+                    }
+                }
+            }
+
             .my-des {
                 margin-bottom: 1em;
             }
