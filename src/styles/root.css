@@ -300,6 +300,16 @@
   letter-spacing: .11rem;
   line-height: 1.25rem;
   font-size: .9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .about-page .about-description .text-des .special {
@@ -307,9 +317,7 @@
 }
 
 .about-page .about-description .text-des .btn-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  text-decoration: none;
   margin-top: -.5em;
   margin-bottom: 1em;
 }

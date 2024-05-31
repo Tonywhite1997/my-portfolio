@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Resume from "../public/resume/Resume.pdf"
 
 function Header({ scrollToAbout, scrollToProject, headerRef, scrollToContact }) {
   const [lastScrollY, setLastScrollY] = useState(window.scrollY);
@@ -60,7 +61,10 @@ function Header({ scrollToAbout, scrollToProject, headerRef, scrollToContact }) 
             <li onClick={scrollToContact}>Contact</li>
           </a>
 
-          <button>Resume</button>
+          <a href={Resume} download="Omodaratan Oluwole Tony" className="btn-container">
+            <button>Resume</button>
+          </a>
+
         </ul>
       </nav>
       <div className={`bars-container ${windowWidth < 751? "show" : " "}`} onClick={()=>{
